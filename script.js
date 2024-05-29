@@ -2,7 +2,7 @@ var contact = 0; //Valor da variavel de controle para a barra de navegação def
 
 console.log(window.location.pathname); //Para depuração retorna no console (Ctrl=shift*i -- Console) qual o caminho para a página que está sendo exibida
 
-if (window.location.pathname === "/G:/Curso/PW1%20-%20C%C3%A9lia/Sui%C3%A7a/contact.html" || window.location.pathname === "/G:/Curso/PW1%20-%20C%C3%A9lia/Sui%C3%A7a/tourism.html" || window.location.pathname === "/G:/Curso/PW1%20-%20C%C3%A9lia/Sui%C3%A7a/gallery.html"  || window.location.pathname === "/G:/Curso/PW1%20-%20C%C3%A9lia/Sui%C3%A7a/confirmar.html") { //verifica se a página é a de contato, ou de turismo, ou de galeria, ou de confirmação
+if (window.location.pathname === "/suica-kelvinpalka/contact.html" || window.location.pathname === "/suica-kelvinpalka.github.io/tourism.html" || window.location.pathname === "/suica-kelvinpalka/gallery.html"  || window.location.pathname === "/suica-kelvinpalka/confirmar.html") { //verifica se a página é a de contato, ou de turismo, ou de galeria, ou de confirmação
     contact = 1; //caso positivo adiciona 1 a variavel de controle
 }
 
